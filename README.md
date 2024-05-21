@@ -101,7 +101,6 @@ The main execution loop allows the user to continuously ask questions to the cha
 This console application demonstrates how to interact with the Groq chatbot API in a simple and efficient manner.
 
 ## Ui Portion
-## Overview
 
 - **Flask Setup**: The script imports necessary modules from Flask (`Flask`, `request`, `render_template`, `redirect`, `url_for`) to create a web application. It also imports a module named `Groq`, likely representing the GROQ API for natural language processing.
 
