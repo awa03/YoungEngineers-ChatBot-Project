@@ -2,7 +2,6 @@
 
 ## Installing Dependency's
 ```bash
-npx tailwindcss init
 
 ```
 
