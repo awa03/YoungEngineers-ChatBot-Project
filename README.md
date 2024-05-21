@@ -1,9 +1,6 @@
 # Tutorial
 
 ## Installing Dependency's
-```bash
-
-```
 
 ## Console Application
 
