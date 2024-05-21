@@ -1,5 +1,4 @@
 from groq import Groq
-import flask
 
 # for api access
 API_KEY = ''

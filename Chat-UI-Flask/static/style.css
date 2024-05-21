@@ -1,0 +1,72 @@
+body {
+    background-color: #171717;
+    padding-bottom: 10px;
+}
+.container {
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+}
+
+#header {
+    text-align: center;
+    color: #ECECEC;
+}
+
+.chat_container {
+    padding: 30px;
+    background-color: #212121;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+    scroll-margin: 0;
+}
+
+.submit_button {
+    float: right;
+    background-color: #34d12c;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    font-size: x-large;
+    width: 60px;
+}
+
+#question_form p {
+    margin: 0;
+}
+
+#question_box {
+    background-color: #2F2F2F;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #ECECEC;
+    float: left;
+    height: 20px;
+}
+
+.user-message, .bot-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #d1e7dd;
+    width: fit-content;
+}
+
+.bot-message {
+    background-color: #f8d7da;
+    width: fit-content;
+}
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="header">Young Engineer's ChatBot Demo</h1>
+        <div id="BotInterface" class="chat_container">
+            <div id="chat_window">
+                {% for message in chat_history %}
+                    <div class="{{ message.role }}-message">
+                       {{ message.content }}
+                    </div>
+                {% endfor %}
+            </div>
+            <form id="question_form" method="POST" action="/">
+                <p><input type="text" id="question_box" name="question_box" required></p>
+                <p><input class="submit_button" type="submit" value=">"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
