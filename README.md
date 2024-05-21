@@ -40,7 +40,7 @@ This section details the implementation of the console application using the Gro
 ```python
 from groq import Groq
 The Groq library is imported to enable API access for interacting with the chatbot.
-
+```
 **API Access Setup**
 
 ```python
