@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for
 from groq import Groq
 
 # api key - GROQ
-API_KEY = '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'
+API_KEY = ''
 app = Flask(__name__)
 
 client = Groq(api_key=API_KEY)
