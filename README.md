@@ -120,7 +120,7 @@ This console application demonstrates how to interact with the Groq chatbot API 
 
 ## Frontend Integration
 
-The HTML template `index.html` is expected to be present in the templates directory of the Flask application. It likely contains the structure for displaying the chat history and the form for users to input their questions.
+The HTML template `index.html` is expected to be present in the templates directory of the Flask application. It contains the structure for displaying the chat history and the form for users to input their questions.
 
-This script integrates Flask with an AI model (GROQ) to create a simple web-based chatbot interface where users can ask questions and receive responses. The HTTP requests are handled by Flask routes, and the frontend is likely rendered using HTML templates with CSS for styling.
+This script integrates Flask with an AI model (GROQ) to create a simple web-based chatbot interface where users can ask questions and receive responses. The HTTP requests are handled by Flask routes, and the frontend is rendered using HTML templates with CSS for styling.
 
